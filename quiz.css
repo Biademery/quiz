@@ -1,0 +1,52 @@
+* {
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 700px;
+  font-size: smaller;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+input[name="question-1"] {
+  accent-color: red;
+}
+input[name="question-2"] {
+  accent-color: aqua;
+}
+input[name="question-3"] {
+  accent-color: yellow;
+}
+input[name="question-4"] {
+  accent-color: red;
+}
+input[name="question-5"] {
+  accent-color: yellow;
+}
+input[name="question-6"] {
+  accent-color: aqua;
+}
+input[name="question-7"] {
+  accent-color: red;
+}
+input[name="question-8"] {
+  accent-color: aqua;
+}
+input[name="question-9"] {
+  accent-color: yellow;
+}
+input[name="question-10"] {
+  accent-color: red;
+}
+
+button {
+  margin: auto;
+  width: 100px;
+}
