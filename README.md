@@ -1,2 +1,2 @@
 # Quiz
-escrever uma descrição
+Quiz sobre Friends com HTML e CSS
