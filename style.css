@@ -1,5 +1,10 @@
 * {
   margin: auto;
+  color: rgb(206, 205, 205);
+}
+
+body {
+  background-color: rgb(26, 26, 26);
 }
 
 h1 {
@@ -17,36 +22,47 @@ h3 {
 
 input[name="question-1"] {
   accent-color: red;
+  opacity: 80%;
 }
 input[name="question-2"] {
   accent-color: aqua;
+  opacity: 80%;
 }
 input[name="question-3"] {
   accent-color: yellow;
+  opacity: 80%;
 }
 input[name="question-4"] {
   accent-color: red;
+  opacity: 80%;
 }
 input[name="question-5"] {
   accent-color: yellow;
+  opacity: 80%;
 }
 input[name="question-6"] {
   accent-color: aqua;
+  opacity: 80%;
 }
 input[name="question-7"] {
   accent-color: red;
+  opacity: 80%;
 }
 input[name="question-8"] {
   accent-color: aqua;
+  opacity: 80%;
 }
 input[name="question-9"] {
   accent-color: yellow;
+  opacity: 80%;
 }
 input[name="question-10"] {
   accent-color: red;
+  opacity: 80%;
 }
 
 button {
   margin: auto;
   width: 100px;
+  opacity: 80%;
 }
