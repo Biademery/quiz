@@ -1,2 +1,2 @@
 # Quiz
-Quiz sobre Friends com HTML e CSS
+Quiz about Friends with HTML and CSS
