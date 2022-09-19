@@ -1,2 +1,9 @@
-# Quiz
-Quiz about Friends with HTML and CSS
+# Quiz App
+
+ <img src="./assets/pf.png">
+
+## 🛠 Tecnologias
+
+- HTML
+- CSS
+- Git e Github
