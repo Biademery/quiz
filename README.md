@@ -2,7 +2,7 @@
 
  <img src="./assets/pf.png">
 
-## 🛠 Tecnologias
+## 🛠 Tools
 
 - HTML
 - CSS
