@@ -20,43 +20,43 @@ h3 {
   font-size: 20px;
 }
 
-input[name="question-1"] {
+input[name="question1"] {
   accent-color: red;
   opacity: 80%;
 }
-input[name="question-2"] {
+input[name="question2"] {
   accent-color: aqua;
   opacity: 80%;
 }
-input[name="question-3"] {
+input[name="question3"] {
   accent-color: yellow;
   opacity: 80%;
 }
-input[name="question-4"] {
+input[name="question4"] {
   accent-color: red;
   opacity: 80%;
 }
-input[name="question-5"] {
+input[name="question5"] {
   accent-color: yellow;
   opacity: 80%;
 }
-input[name="question-6"] {
+input[name="question6"] {
   accent-color: aqua;
   opacity: 80%;
 }
-input[name="question-7"] {
+input[name="question7"] {
   accent-color: red;
   opacity: 80%;
 }
-input[name="question-8"] {
+input[name="question8"] {
   accent-color: aqua;
   opacity: 80%;
 }
-input[name="question-9"] {
+input[name="question9"] {
   accent-color: yellow;
   opacity: 80%;
 }
-input[name="question-10"] {
+input[name="question10"] {
   accent-color: red;
   opacity: 80%;
 }
