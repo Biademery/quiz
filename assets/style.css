@@ -14,15 +14,19 @@ h1 {
   font-family: 'Caveat', 'sans-serif';
 }
 
+span {
+  margin: auto;
+}
+
 .body {
   display: grid;
   grid-template-columns: 33% 34% 33%;
 }
 
 .body.left {
-/*Colocar alguma coisa aqui*/
-  margin-bottom: 60px;
-  margin-left: 20px;
+  /*Colocar alguma coisa aqui*/
+  margin-bottom: 70px;
+  margin-left: 80px;
 }
 
 form {
@@ -35,58 +39,70 @@ h3 {
   font-size: 20px;
 }
 
+
 label {
+  cursor: pointer;
   font-size: 14px;
 }
 
 
 input[name="question1"],
 .result.first {
+  cursor: pointer;
   accent-color: red;
   color: red;
 }
 input[name="question2"],
 .result.second {
+  cursor: pointer;
   accent-color: aqua;
   color: aqua;
 }
 input[name="question3"],
 .result.third {
+  cursor: pointer;
   color: yellow;
   accent-color: yellow;
 }
 input[name="question4"],
 .result.fourth {
+  cursor: pointer;
   color: red;
   accent-color: red;
 }
 input[name="question5"],
 .result.fifth {
+  cursor: pointer;
   color: yellow;
   accent-color: yellow;
 }
 input[name="question6"],
 .result.sixth {
+  cursor: pointer;
   color: aqua;
   accent-color: aqua;
 }
 input[name="question7"],
 .result.seventh {
+  cursor: pointer;
   color: red;
   accent-color: red;
 }
 input[name="question8"],
 .result.eighth {
+  cursor: pointer;
   accent-color: aqua;
   color: aqua;
 }
 input[name="question9"],
 .result.ninth {
+  cursor: pointer;
   color: yellow;
   accent-color: yellow;
 }
 input[name="question10"],
 .result.tenth {
+  cursor: pointer;
   color: red;
   accent-color: red;
 }
@@ -94,10 +110,24 @@ input[name="question10"],
 .result {
   margin: auto;
   font-size: large;
+  font-weight: 600;
 }
 
 button {
   margin: auto;
   width: 100px;
-  opacity: 80%;
+  border-radius: 10px;
+  border: none;
+  background-color: #d2c385;
+  padding: 10px;
 }
+
+button:hover {
+  opacity: 0.9;
+}
+
+.body.right {
+  /*Colocar alguma coisa aqui*/
+    margin-bottom: 70px;
+    margin-right: 80px;
+  }
