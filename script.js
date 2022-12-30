@@ -11,8 +11,6 @@ const correctAnswers = [
   'question10d',
 ];
 
-console.log();
-
 function checkAnswers(event) {
   event.preventDefault();
 
@@ -29,3 +27,7 @@ function checkAnswers(event) {
     }
   }
 }
+
+const form = document.querySelector('form');
+
+form.addEventListener('submit', checkAnswers);
