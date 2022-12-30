@@ -12,6 +12,8 @@ h1 {
   text-align: center;
   font-weight: 600;
   font-family: 'Caveat', 'sans-serif';
+  padding: 10px;
+  border-bottom: 2px solid #d2c385;
 }
 
 span {
