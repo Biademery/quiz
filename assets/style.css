@@ -5,18 +5,29 @@
 }
 
 body {
-  background-color: #28038d6b;
+  background-color: #9c8cd4;
 }
 
 h1 {
   text-align: center;
+  font-weight: 600;
   font-family: 'Caveat', 'sans-serif';
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+}
+
+.body.left {
+/*Colocar alguma coisa aqui*/
+  margin-bottom: 60px;
+  margin-left: 20px;
 }
 
 form {
   max-width: 700px;
   margin: auto;
-  font-size: smaller;
   font-family: 'Raleway', 'sans-serif';
 }
 
@@ -24,64 +35,65 @@ h3 {
   font-size: 20px;
 }
 
-input[name="question1"] {
-  accent-color: red;
-  opacity: 80%;
-  cursor: pointer;
-}
-input[name="question2"] {
-  accent-color: aqua;
-  opacity: 80%;
-  cursor: pointer;
-}
-input[name="question3"] {
-  accent-color: yellow;
-  opacity: 80%;
-  cursor: pointer;
-}
-input[name="question4"] {
-  accent-color: red;
-  opacity: 80%;
-  cursor: pointer;
-}
-input[name="question5"] {
-  accent-color: yellow;
-  opacity: 80%;
-  cursor: pointer;
-}
-input[name="question6"] {
-  accent-color: aqua;
-  opacity: 80%;
-  cursor: pointer;
-}
-input[name="question7"] {
-  accent-color: red;
-  opacity: 80%;
-  cursor: pointer;
-}
-input[name="question8"] {
-  accent-color: aqua;
-  opacity: 80%;
-  cursor: pointer;
-}
-input[name="question9"] {
-  accent-color: yellow;
-  opacity: 80%;
-  cursor: pointer;
-}
-input[name="question10"] {
-  accent-color: red;
-  opacity: 80%;
-  cursor: pointer;
+label {
+  font-size: 14px;
 }
 
-p {
+
+input[name="question1"],
+.result.first {
+  accent-color: red;
+  color: red;
+}
+input[name="question2"],
+.result.second {
+  accent-color: aqua;
+  color: aqua;
+}
+input[name="question3"],
+.result.third {
+  color: yellow;
+  accent-color: yellow;
+}
+input[name="question4"],
+.result.fourth {
+  color: red;
+  accent-color: red;
+}
+input[name="question5"],
+.result.fifth {
+  color: yellow;
+  accent-color: yellow;
+}
+input[name="question6"],
+.result.sixth {
+  color: aqua;
+  accent-color: aqua;
+}
+input[name="question7"],
+.result.seventh {
+  color: red;
+  accent-color: red;
+}
+input[name="question8"],
+.result.eighth {
+  accent-color: aqua;
+  color: aqua;
+}
+input[name="question9"],
+.result.ninth {
+  color: yellow;
+  accent-color: yellow;
+}
+input[name="question10"],
+.result.tenth {
+  color: red;
+  accent-color: red;
+}
+
+.result {
   margin: auto;
-  /* display: block; */
-  /* border-radius: 10px; */
   font-size: large;
-  /* width: fit-content; */
-  /* margin-left: 250px; */
 }
 
 button {
