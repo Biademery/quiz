@@ -20,15 +20,8 @@ span {
   margin: auto;
 }
 
-.body {
-  display: grid;
-  grid-template-columns: 33% 34% 33%;
-}
-
-.body.left {
-  /*Colocar alguma coisa aqui*/
-  margin-bottom: 70px;
-  margin-left: 80px;
+.percentColor {
+  color: #d2c385;
 }
 
 form {
@@ -127,9 +120,3 @@ button {
 button:hover {
   opacity: 0.9;
 }
-
-.body.right {
-  /*Colocar alguma coisa aqui*/
-    margin-bottom: 70px;
-    margin-right: 80px;
-  }
