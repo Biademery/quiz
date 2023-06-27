@@ -1,6 +1,6 @@
 #
 
-<h1 align="center">Teorema de Pitágoras Web</h1>
+<h1 align="center">F.R.I.E.N.D.S</h1>
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
