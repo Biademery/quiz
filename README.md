@@ -16,6 +16,8 @@
   </a>
 </p>
 
+<img src="./src/assets/friends.png"
+
 ## 💻 Projeto
 
 Quiz App é uma aplicação de perguntas sobre a série Friends.
