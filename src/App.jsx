@@ -1,6 +1,6 @@
 import { Header } from './Header'
 import { QuizForm } from './QuizForm'
-import './styles.css'
+import './assets/styles.css'
 
 function App() {
 
