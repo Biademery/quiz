@@ -16,7 +16,7 @@
   </a>
 </p>
 
-<img src="./src/assets/friends.png"
+<img src="./src/assets/friends.png">
 
 ## 💻 Projeto
 
