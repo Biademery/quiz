@@ -1,0 +1,187 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #9c8cd4;
+
+}
+
+body {
+    background-color: #9c8cd4;
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Caveat', 'sans-serif';
+    padding: 10px;
+    border-bottom: 2px solid #d2c385;
+    display: grid;
+    grid-template-columns: 95% 5%
+}
+
+.title img {
+    width: 35px;
+    margin: auto;
+}
+
+span {
+    margin: auto;
+}
+
+.percentColor {
+    color: #d2c385;
+}
+
+form {
+    max-width: 700px;
+    margin: auto;
+    font-family: 'Raleway', 'sans-serif';
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+label {
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+
+input[name="question1"],
+.result.first {
+    cursor: pointer;
+    accent-color: red;
+    color: red;
+}
+
+input[name="question2"],
+.result.second {
+    cursor: pointer;
+    accent-color: aqua;
+    color: aqua;
+}
+
+input[name="question3"],
+.result.third {
+    cursor: pointer;
+    color: yellow;
+    accent-color: yellow;
+}
+
+input[name="question4"],
+.result.fourth {
+    cursor: pointer;
+    color: red;
+    accent-color: red;
+}
+
+input[name="question5"],
+.result.fifth {
+    cursor: pointer;
+    color: yellow;
+    accent-color: yellow;
+}
+
+input[name="question6"],
+.result.sixth {
+    cursor: pointer;
+    color: aqua;
+    accent-color: aqua;
+}
+
+input[name="question7"],
+.result.seventh {
+    cursor: pointer;
+    color: red;
+    accent-color: red;
+}
+
+input[name="question8"],
+.result.eighth {
+    cursor: pointer;
+    accent-color: aqua;
+    color: aqua;
+}
+
+input[name="question9"],
+.result.ninth {
+    cursor: pointer;
+    color: yellow;
+    accent-color: yellow;
+}
+
+input[name="question10"],
+.result.tenth {
+    cursor: pointer;
+    color: red;
+    accent-color: red;
+}
+
+.result {
+    margin: auto;
+    font-size: large;
+    font-weight: 600;
+}
+
+.icon-btn {
+    border: none;
+    background-color: transparent;
+    width: fit-content;
+}
+
+.btn {
+    margin: auto;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: #d2c385;
+    padding: 10px;
+    transition: 2s ease-in-out;
+}
+
+.login {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-family: 'Raleway', 'sans-serif';
+}
+
+/*
+.title-login {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Caveat', 'sans-serif';
+    padding: 10px;
+    border-bottom: 2px solid #d2c385;
+    display: grid;
+    grid-template-columns: 95% 5%;
+    background-color: #ad9de9;
+} */
+
+.model {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: fit-content;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+/* .title {
+    margin-bottom: 20px;
+}
+
+.login-input {
+    padding: 3px 5px;
+    background-color: #ad9de9;
+    border: none;
+    border-bottom: 2px solid #d2c385;
+}
+
+.label-login {
+    background-color: #ad9de9;
+} */
