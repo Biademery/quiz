@@ -1,15 +1,11 @@
-import { Header } from './Header'
-import { QuizForm } from './QuizForm'
-import './assets/styles.css'
+import { LoginPage } from "./views/LoginPage";
 
 function App() {
-
   return (
     <>
-      <Header />
-      <QuizForm />
+      <LoginPage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

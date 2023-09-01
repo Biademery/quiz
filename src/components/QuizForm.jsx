@@ -7,7 +7,7 @@ export function QuizForm() {
   const [submitted, setSubmitted] = useState(false);
   const [counter, setCounter] = useState(0);
   const counterRef = useRef(counter);
-  
+
   useEffect(() => {
     if (submitted) {
       const timer = setInterval(() => {
@@ -21,7 +21,7 @@ export function QuizForm() {
         });
       }, 100);
     }
-  }, [submitted, score]); 
+  }, [submitted, score]);
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -348,7 +348,9 @@ export function QuizForm() {
           </li>
         </ol>
 
-        <button type="submit">Submit</button>
+        <button className="btn" type="submit">
+          Submit
+        </button>
       </form>
     </>
   );
